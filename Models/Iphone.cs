@@ -4,7 +4,7 @@ namespace DesafioPOO.Models
     // Implementado!
     public class Iphone : Smartphone
     {
-        private String SistemaIOS { get; set; }
+        public String SistemaIOS { get; set; }
         public Iphone(string numero, string modelo, string imei, int memoria, string sistemaIOS) : base(numero, modelo, imei, memoria)
         {
             SistemaIOS = sistemaIOS;

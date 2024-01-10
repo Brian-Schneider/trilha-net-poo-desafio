@@ -6,7 +6,7 @@ namespace DesafioPOO.Models
     {
         // Sobrescrever o método "InstalarAplicativo"
         // Implementado!
-        private string SistemaAndroid { get; set; }
+        public string SistemaAndroid { get; set; }
         public Nokia(string numero, string modelo, string imei, int memoria, string sistemaAndroid) : base(numero, modelo, imei, memoria)
         {
             SistemaAndroid = sistemaAndroid;
